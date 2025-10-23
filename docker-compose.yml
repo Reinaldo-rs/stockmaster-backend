@@ -1,0 +1,21 @@
+services:
+  db:
+    image: mysql:8.0
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: stockmaster
+      MYSQL_USER: stockuser
+      MYSQL_PASSWORD: stockpass
+    ports:
+      - "3306:3306"
+    volumes:
+      - db_data:/var/lib/mysql
+    networks:
+      - stockmaster_net
+
+volumes:
+  db_data:
+
+networks:
+  stockmaster_net:
