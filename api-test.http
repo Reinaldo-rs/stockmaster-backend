@@ -1,0 +1,2 @@
+GET https://Reinaldo-rs-3000.app.github.dev/api/products
+Content-Type: application/json

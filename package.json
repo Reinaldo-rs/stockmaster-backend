@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "dev": "nodemon src/server.js",
-    "test": "jest"
+    "test": "jest",
+    "lint": "eslint src --fix"
   },
   "keywords": [],
   "author": "",
@@ -26,5 +28,13 @@
     "nodemon": "^3.1.10",
     "prettier": "^3.6.2",
     "supertest": "^7.1.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Reinaldo-rs/stockmaster-backend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Reinaldo-rs/stockmaster-backend/issues"
+  },
+  "homepage": "https://github.com/Reinaldo-rs/stockmaster-backend#readme"
 }
