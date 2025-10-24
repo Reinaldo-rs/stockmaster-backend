@@ -1,0 +1,30 @@
+# POST https://urban-spork-q7pp556gwqv9247r6-3000.app.github.dev/api/auth/register
+# Content-Type: application/json
+
+# {
+#   "name": "Admin",
+#   "email": "admin@stockmaster.com",
+#   "password": "123456",
+#   "role": "admin"
+# }
+
+# POST https://urban-spork-q7pp556gwqv9247r6-3000.app.github.dev/api/auth/login
+# Content-Type: application/json
+
+# {
+#   "email": "admin@stockmaster.com",
+#   "password": "123456"
+# }
+
+# POST https://urban-spork-q7pp556gwqv9247r6-3000.app.github.dev/api/products
+# Authorization: Bearer SEU_TOKEN_AQUI
+# Content-Type: application/json
+
+# {
+#   "name": "Filamento PLA 1.75mm",
+#   "description": "Filamento para impressoras 3D, cor branca",
+#   "price": 89.90,
+#   "quantity": 50
+# }
+
+GET https://urban-spork-q7pp556gwqv9247r6-3000.app.github.dev/api/products
